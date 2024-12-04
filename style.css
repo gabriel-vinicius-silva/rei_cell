@@ -1,0 +1,108 @@
+/* Configurações Globais */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f8fc;
+    color: #333;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #005bb5;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Sessões */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.about, .services, .contact {
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2 {
+    color: #005bb5;
+}
+
+.service-item {
+    margin: 15px 0;
+}
+
+.service-item h3 {
+    color: #333;
+}
+
+/* Ícones Sociais */
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons .icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #005bb5;
+    transition: color 0.3s;
+}
+
+.social-icons .icon:hover {
+    color: #ffdd57;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
