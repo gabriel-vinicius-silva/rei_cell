@@ -5,7 +5,7 @@ Bem-vindo ao repositório do **REI-CELL**, o site oficial da nossa assistência 
 
 ## 🖥️ Demonstração
 
-Você pode visualizar o site em funcionamento [aqui](#) (adicione o link após publicar).
+Você pode visualizar o site em funcionamento [[aqui](https://gabriel-vinicius-silva.github.io/rei_cell/)](#).
 
 ---
 
